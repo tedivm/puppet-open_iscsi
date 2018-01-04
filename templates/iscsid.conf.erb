@@ -94,7 +94,7 @@ node.session.iscsi.FirstBurstLength = <%= @first_burst_length %>
 node.session.iscsi.MaxBurstLength = <%= @max_burst_length %>
 node.conn[0].iscsi.MaxRecvDataSegmentLength = <%= @max_recv_data_segment_length %>
 node.conn[0].iscsi.MaxXmitDataSegmentLength = <%= @max_xmit_data_segment_length %>
-discovery.sendtargets.iscsi.MaxRecvDataSegmentLength = <%= @max_recv_data_segment_length %>
+discovery.sendtargets.iscsi.MaxRecvDataSegmentLength = <%= @discovery_max_recv_data_segment_length %>
 node.conn[0].iscsi.HeaderDigest = <%= @header_digest %>
 node.conn[0].iscsi.DataDigest = <%= @data_digest %>
 node.session.nr_sessions = <%= @nr_sessions %>
