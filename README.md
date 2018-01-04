@@ -127,27 +127,27 @@ class { 'iscsi::initiator':
 
 * [*xmit_thread_priority*] - Defaults to -20.
 
-* [*initialR2T*] - Defaults to false.
+* [*initial_r2t*] - Defaults to false.
 
-* [*immediateData*] - Defaults to true.
+* [*immediate_data*] - Defaults to true.
 
-* [*firstBurstLength*] - Defaults to 262144.
+* [*first_burst_length*] - Defaults to 262144.
 
-* [*maxBurstLength*] - Defaults to 16776192.
+* [*max_burst_length*] - Defaults to 16776192.
 
-* [*maxRecvDataSegmentLength*] - Defaults to 262144.
+* [*max_recv_data_segment_length*] - Defaults to 262144.
 
-* [*maxXmitDataSegmentLength*] - Defaults to 0.
+* [*max_xmit_data_segment_length*] - Defaults to 0.
 
-* [*headerDigest*] - Defaults to "None".
+* [*header_digest*] - Defaults to "None".
 
-* [*dataDigest*] - Defaults to "None"
+* [*data_digest*] - Defaults to "None"
 
 * [*nr_sessions*] - Defaults to 1.
 
-* [*MaxRecvDataSegmentLength*] - Defaults to 32768.
+* [*max_recv_data_segment_length*] - Defaults to 32768.
 
-* [*fastAbort*] - Defaults to true.
+* [*fast_abort*] - Defaults to true.
 
 * [*iscsid_conf*] - Defaults to "/etc/iscsi/iscsid.conf".
 

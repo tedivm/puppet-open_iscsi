@@ -43,20 +43,20 @@ class iscsi::params {
 
 
   # iSCSI settings
-  $initialR2T = false
-  $immediateData = true
-  $firstBurstLength = 262144
-  $maxBurstLength = 16776192
-  $maxRecvDataSegmentLength = 262144
-  $maxXmitDataSegmentLength = 0
-  $headerDigest = None
-  $dataDigest = None
+  $initial_r2t = false
+  $immediate_data = true
+  $first_burst_length = 262144
+  $max_burst_length = 16776192
+  $max_recv_data_segment_length = 262144
+  $max_xmit_data_segment_length = 0
+  $header_digest = None
+  $data_digest = None
   $nr_sessions = 1
 
-  $MaxRecvDataSegmentLength = 32768
+  $max_recv_data_segment_length = 32768
 
   # Workarounds
-  $fastAbort = true
+  $fast_abort = true
 
   $iscsid_conf = '/etc/iscsi/iscsid.conf'
 

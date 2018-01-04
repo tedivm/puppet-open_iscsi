@@ -88,19 +88,19 @@ node.session.xmit_thread_priority = <%= @xmit_thread_priority %>
 # iSCSI settings
 #***************
 
-node.session.iscsi.InitialR2T = <%= @initialR2T ? "Yes" : "No" %>
-node.session.iscsi.ImmediateData = <%= @immediateData ? "Yes" : "No" %>
-node.session.iscsi.FirstBurstLength = <%= @firstBurstLength %>
-node.session.iscsi.MaxBurstLength = <%= @maxBurstLength %>
-node.conn[0].iscsi.MaxRecvDataSegmentLength = <%= @maxRecvDataSegmentLength %>
-node.conn[0].iscsi.MaxXmitDataSegmentLength = <%= @maxXmitDataSegmentLength %>
-discovery.sendtargets.iscsi.MaxRecvDataSegmentLength = <%= @maxRecvDataSegmentLength %>
-node.conn[0].iscsi.HeaderDigest = <%= @headerDigest %>
-node.conn[0].iscsi.DataDigest = <%= @dataDigest %>
+node.session.iscsi.InitialR2T = <%= @initial_r2t ? "Yes" : "No" %>
+node.session.iscsi.ImmediateData = <%= @immediate_data ? "Yes" : "No" %>
+node.session.iscsi.FirstBurstLength = <%= @first_burst_length %>
+node.session.iscsi.MaxBurstLength = <%= @max_burst_length %>
+node.conn[0].iscsi.MaxRecvDataSegmentLength = <%= @max_recv_data_segment_length %>
+node.conn[0].iscsi.MaxXmitDataSegmentLength = <%= @max_xmit_data_segment_length %>
+discovery.sendtargets.iscsi.MaxRecvDataSegmentLength = <%= @max_recv_data_segment_length %>
+node.conn[0].iscsi.HeaderDigest = <%= @header_digest %>
+node.conn[0].iscsi.DataDigest = <%= @data_digest %>
 node.session.nr_sessions = <%= @nr_sessions %>
 
 #************
 # Workarounds
 #************
 
-node.session.iscsi.FastAbort = <%= @fastAbort ? "Yes" : "No" %>
+node.session.iscsi.FastAbort = <%= @fast_abort ? "Yes" : "No" %>
